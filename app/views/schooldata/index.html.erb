@@ -1,6 +1,9 @@
+<% provide(:title, 'Home') %>
 <h1>Listing schooldata</h1>
 
-<table>
+<div class="panel panel-default">
+  <div class="panel-body">
+<table class="table table-bordered ">
   <thead>
     <tr>
       <th>Schoolcode</th>
@@ -45,7 +48,8 @@
     <% end %>
   </tbody>
 </table>
-
+</div>
+</div>
 <br>
 
 <%= link_to 'New Schooldatum', new_schooldatum_path %>

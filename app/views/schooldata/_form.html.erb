@@ -1,3 +1,4 @@
+<% provide(:title, 'Signup') %>
 <%= form_for(@schooldatum) do |f| %>
   <% if @schooldatum.errors.any? %>
     <div id="error_explanation">
@@ -13,7 +14,7 @@
 
   <div class="field">
     <%= f.label :Schoolcode %><br>
-    <%= f.text_field :Schoolcode %>
+    <input type="text"  name="schooldatum[Schoolcode]"/>
   </div>
   <div class="field">
     <%= f.label :schoolname %><br>

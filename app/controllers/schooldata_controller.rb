@@ -1,14 +1,16 @@
 class SchooldataController < ApplicationController
   before_action :set_schooldatum, only: [:show, :edit, :update, :destroy]
-
+def homepage
+  
+end
   # GET /schooldata
   # GET /schooldata.json
   def index
     @schooldata = Schooldatum.all
   end
 
-  # GET /schooldata/1
-  # GET /schooldata/1.json
+  #  GET /schooldata/1
+  #  GET /schooldata/1.json
   def show
   end
 
