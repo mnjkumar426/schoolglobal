@@ -71,6 +71,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def schooldatum_params
-      params.require(:schooldatum).permit(:Schoolcode, :schoolname, :branchname, :fromstd, :tostd, :boardcode, :registerunder, :schoolownershiptype, :yearofestb, :website, :email, :phone, :pictlink, :isactive)
+      params.require(:schooldatum).permit(:Schoolcode,:test, :schoolname, :branchname, :fromstd, :tostd, :boardcode, :registerunder, :schoolownershiptype, :yearofestb, :website, :email, :phone, :pictlink, :isactive)
     end
 end

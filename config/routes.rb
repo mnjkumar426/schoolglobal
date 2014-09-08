@@ -7,7 +7,7 @@ Rails.application.routes.draw do
  get 'schools/school_signup'
  post 'schools/reg'
 
-
+#map.connect
   resources :users
 
   # See how all your routes lay out with "rake routes".

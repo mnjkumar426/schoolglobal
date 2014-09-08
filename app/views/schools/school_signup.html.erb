@@ -41,21 +41,21 @@
                 <div class="panel panel-default">
                <div class="panel-heading"><strong>SCHOOL REGISTRATION</strong></div>
                <div class="panel-body">
-                <div class="">
+                
                 <div class="form-group" align="middle">Basic Info:
                                         </div>
                
-                <div class="form-group">
+                 <div class="form-group">
                     <label for="school_name">School Name</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="school_name" name="school_name" placeholder="Enter School Name" required autocomplete="true">
+                        <input type="text" class="form-control" id="school_name" name="schooldata[SCHOOL_NAME]" placeholder="Enter School Name" required autocomplete="true">
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
-                <div class="form-group">
+                                <div class="form-group">
                     <label for="board">Board</label>
                     <div class="input-group">
-                        <select name="board" id="board" class="form-control">
+                        <select name="schooldata[board_code]" id="board" class="form-control">
                   <option>Allahabad Board (UP Board)</option>
                   <option>CSBE</option>
                   <option>ICSE</option>
@@ -64,48 +64,35 @@
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
-                
                 <div class="form-group">
                     <label for="registered_under">Registered Under</label>
                    <div class="input-group">
-                         <select name="registered_under" id="registered_under" class="form-control">
+                         <select name="schooldata[registered_Under]" id="registered_under" class="form-control">
                   <option>UGC</option>
                   <option>AICTE</option>
                 </select>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div> 
                 </div>
-                <div class="form-group">
-                    <label for="school_type">Type of Schools</label>
-                    <div class="input-group">
-                        
-                        <select name="school_type" id="school_type" class="form-control">
-                <option selected>Private</option>
-                <option>Government</option>
-                <option>Undertaken by Gov.</option>
-                </select>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
-                    </div>
-                </div>
+                
                 <div class="form-group">
                     <label for="website">Website</label>
                     <div class="input-group">
-                        <input type="url" class="form-control" id="website" name="website" placeholder="Enter website url" required>
+                        <input type="url" class="form-control" id="website" name="schooldata[webSite]" placeholder="Enter website url" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="school_email">School Mailing Address ( Email )</label>
                     <div class="input-group">
-                        <input type="email" class="form-control" id="school_email" name="school_email" placeholder="School Email" required>
+                        <input type="email" class="form-control" id="school_email" name="schooldata[email]" placeholder="School Email" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <label for="estb_year">Established In ( Year )</label>
                     <div class="input-group">
-                        <select name="estb_year" id="estb_year" class="form-control">
+                        <select name="schooldata[estb_year]" id="estb_year" class="form-control">
                      <option selected>1970</option>
                         <option>1980</option>
                       <option>1990</option>
@@ -116,30 +103,30 @@
                 <div class="form-group">
                     <label for="school_phone">School Landline No.</label>
                     <div class="input-group">
-                        <input type="tel" class="form-control" id="school_phone" name="school_phone" placeholder="landline no" required>
+                        <input type="tel" class="form-control" id="school_phone" name="schooldata[phone1]" placeholder="landline no" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
+                
                 <div class="form-group">
                     <label for="city">School city</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="city" name="city" placeholder="city" required>
+                        <input type="text" class="form-control" id="city" name="schooldata[city]" placeholder="city" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
-                <div class="form-group">
+                                <div class="form-group">
                     <label for="state">State</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="state" name="state" placeholder="state" required>
+                        <input type="text" class="form-control" id="state" name="schooldata[state]" placeholder="state" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
-                
+                                
                 <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-primary">
-                </div>
+                
               </div>
                 
-                </div>
                 </div>
             </div>
         </form>

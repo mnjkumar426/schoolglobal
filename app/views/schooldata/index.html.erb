@@ -7,6 +7,7 @@
   <thead>
     <tr>
       <th>Schoolcode</th>
+     <th>tEST</th>
       <th>Schoolname</th>
       <th>Branchname</th>
       <th>Fromstd</th>
@@ -28,7 +29,9 @@
     <% @schooldata.each do |schooldatum| %>
       <tr>
         <td><%= schooldatum.Schoolcode %></td>
+        <td><%= schooldatum.test %></td>
         <td><%= schooldatum.schoolname %></td>
+       
         <td><%= schooldatum.branchname %></td>
         <td><%= schooldatum.fromstd %></td>
         <td><%= schooldatum.tostd %></td>

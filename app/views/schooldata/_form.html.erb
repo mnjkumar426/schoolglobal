@@ -13,10 +13,15 @@
   <% end %>
 
   <div class="field">
+  
     <%= f.label :Schoolcode %><br>
     <input type="text"  name="schooldatum[Schoolcode]"/>
   </div>
   <div class="field">
+  	<div class="field">
+    <%= f.label :test %><br>
+    <%= f.text_field :test%>
+  </div>
     <%= f.label :schoolname %><br>
     <%= f.text_field :schoolname %>
   </div>
