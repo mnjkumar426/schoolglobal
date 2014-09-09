@@ -6,14 +6,14 @@ Rails.application.routes.draw do
   resources :schooldata
  get 'schools/school_signup'
  post 'schools/reg'
-
+get 'schools/homepage'
 #map.connect
   resources :users
 
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'schooldata#homepage'
+   root 'schools#homepage'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

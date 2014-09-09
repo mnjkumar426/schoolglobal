@@ -125,7 +125,7 @@ ActiveRecord::Schema.define(version: 20140905184609) do
     t.integer  "total_Staff"
     t.string   "board_code",           limit: 55
     t.string   "registered_Under",     limit: 30
-    t.string   "type",                 limit: 30
+    t.string   "school_type",          limit: 30
     t.integer  "estb_year"
     t.string   "webSite",              limit: 50
     t.string   "email",                limit: 30
