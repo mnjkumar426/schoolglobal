@@ -16,6 +16,9 @@ def reg
   # redirect_to "/schools/school_signup"
       end
 end
+def schoolhomepage
+  
+end
 def user_params
     params.require(:schooldata).permit(:SCHOOL_NAME,:board_code,:registered_Under,:school_type,:webSite,:email,:estb_year,:phone1,:city,:state)
   end
